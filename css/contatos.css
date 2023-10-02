@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main.box-container-form {
+    height: 600px;
+    background-color: #95bf8f;
+}
+
+div.formulario {
+    padding: 15px;
+}
+
+div.formulario h1 {
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+div.formulario button {
+    margin-left: 20px;
+}
+
+div.formulario label {
+    font-size: 16px;
+}
+
+@media screen and (min-width: 500px) {
+    main.box-container-form {
+        height: 800px;
+    }
+
+    div.formulario button {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}

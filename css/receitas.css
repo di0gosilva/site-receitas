@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main.container-receitas {
+    height: 100%;
+    background-color: #95bf8f;
+    display: flex;
+    align-items: flex-start;
+}
+
+div.box-receitas {
+    display: flex;
+    align-items: flex-start;
+    margin: 15px;
+    gap: 15px;
+}
+
+div.box-item {
+    border: 1px solid white;
+    width: 400px;
+    height: 600px;
+    align-content: start;
+    background-color: white;
+    border-radius: 5px;
+}
+
+div.content {
+    padding: 20px;
+}
+
+div.box-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+div.box-item h1 {
+    padding: 0 0 15px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div.box-item p {
+    padding: 0 15px;
+    line-height: 1.8em;
+}
+/* 
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+} */
+
+@media screen and (max-width: 1024px) {
+    div.box-receitas {
+        flex-direction: column;
+    }
+
+    /* main.container-receitas {
+        height: 100%;
+        background-color: #95bf8f;
+        display: flex;
+        align-items: flex-start;
+    } */
+
+}
