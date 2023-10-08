@@ -44,6 +44,12 @@ footer {
 }
 
 @media (max-width: 800px) {
+    main.box-container-home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     div.titulo h1 {
         font-size: 30px;
     }
@@ -51,7 +57,6 @@ footer {
     div.container-principal h4 {
         font-size: 20px;
         margin-top: 15px;
-        margin-right: 40px;
     }
 
     img.logo {
