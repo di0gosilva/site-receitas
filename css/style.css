@@ -25,7 +25,7 @@ div.titulo h1 {
 div.container-principal h4 {
     font-size: 25px;
     text-align: center;
-    padding-left: 5px;
+    padding-left: 50px;
     line-height: 1.3em;
 }
 
@@ -43,7 +43,7 @@ footer {
     padding: 5px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     main.box-container-home {
         display: flex;
         justify-content: center;
@@ -55,8 +55,9 @@ footer {
     }
 
     div.container-principal h4 {
-        font-size: 20px;
-        margin-top: 15px;
+        font-size: 19px;
+        margin-top: 5px;
+        margin-right: 20px;
     }
 
     img.logo {
